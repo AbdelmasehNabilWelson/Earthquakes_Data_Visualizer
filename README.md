@@ -26,7 +26,7 @@ Here are some of the key features and functionalities of the Earthquake Data Vis
 
 # This video shows the functionality of the project.
 
-[![Video Demo](./Images/Data_Visualizer.png)](https://youtu.be/rABgpYYMAag)
+[![Video Demo](./Images/Data_Visualizer.png)](https://github.com/AbdelmasehNabilWelson/Earthquakes_Data_Visualizer/assets/110543597/f37b1173-3e0c-4dc7-a031-fe3d7878d97b)
 
 The module folders contain the starter code for the programming assignments
 associated with the MOOC.
