@@ -1,64 +1,32 @@
-# I am happy to share my earthquake data visualizer using Java 8, Processing library with version 1.8, and Unfolding Map (library) v0.9.7 (UCSD edition).
+# 🌍 Earthquake Data Visualizer Project 🌍
 
-## This project is part of the third course from the Object Oriented Programming in Java Specialization on coursera
-# NOTE: What I am going to say Is implemented in module5.
+I am thrilled to share my latest project, the Earthquake Data Visualizer, which I developed using Java 8, the Processing library (version 1.8), and the Unfolding Map library (v0.9.7 - UCSD edition).
 
-# Project goals
-    The goal of the project is to practice and focus on applying the four OOP concepts abstraction, encapsulation, Inheritance, and Polymorphism (dynamic polymorphism using method overriding and static polymorphism using method overloading).
+🎓 This project is a significant part of my journey through the Object-Oriented Programming in Java Specialization on Coursera, specifically implemented in module 5.
 
-# Project Functionalities
-* shows earthquake data from a live RSS feed on the map
-    * At this part, multiple types of markers are drawn on the map
-        * city markers
-        * earthquake markers
-            * whether these earthquakes have happened on 
-                * land 
-                * oceans.
-            * It also shows whether these earthquakes are 
-                * Shallow
-                * Intermediate
-                * Deep.
+### 🎯 Project Goals:
 
-<br>![Photo](./Images/earthquakes.png)<br>
-	
-* When the mouse hovers over a marker it displays a box
-	* If the marker is a city this box shows the city’s name, country, and population.
-    <br>![Photo](./Images/City.png)<br>
+The primary objective of this project was to sharpen my skills in applying the four fundamental Object-Oriented Programming (OOP) concepts: abstraction, encapsulation, inheritance, and polymorphism. I explored dynamic polymorphism through method overriding and static polymorphism through method overloading.
 
-	* If the marker is an earthquake it displays the title of the earthquake including its magnitude and region.
-    <br>![Photo](./Images/earthquakeMarker.png)<br>
+### 🚀 Project Functionalities:
 
-* When the mouse is clicked we have two possibilities
-	* A click on a city marker
-        * will make that marker will be displayed and the earthquakes that includes it in their threat circle.
-        * All other Markers are hidden.
-        * new GUI section is added at the bottom left corner on the GUI this section shows.
-            * The Average magnitude of the earthquakes affect this city.
-            * Total number of the earthquakes affect it.
-            * The number of land earthquakes.
-            * the number of ocean earthquakes.
-    
-    * This Photo shows when no city is clicked.
-    <br>![Photo](./Images/cityWithoutClick.png)<br>
+Here are some of the key features and functionalities of the Earthquake Data Visualizer:
 
-    * When Santiago city is clicked.
-    <br>![Photo](./Images/cityWIthEarthquakesWithinIT1.png)<br>
+1- Displaying different markers on the map, including city markers and earthquake markers.
 
-    * A deeper look to ensure the counts of the earthquakes type.
-    <br>![Photo](./Images/cityWIthEarthquakesWithinIT.png)<br>
+2- Real-time visualization of earthquake data from an RSS feed on the map.
 
-	* After clicking on an earthquake marker, only cities potentially affected by that earthquake (cities that are in its threatCircle) and this earthquake will be displayed.
-    <br>![Photo](./Images/EarthQuakeClicked.cpp.png)<br>
+3- Smart marker differentiation is based on various criteria such as location (land or ocean) and depth (shallow, intermediate, deep).
 
+4- Informative pop-up boxes that appear when you hover over a marker, providing relevant details about cities and earthquakes.
 
-# unfolding_app_template and UC San Diego/Coursera MOOC starter code
-This is a skeleton to use Unfolding in Eclipse as well as some starter
-code for the Object Oriented Programming in Java course offered by 
-UC San Diego through Coursera.
+5- Interactive clicking behavior: When clicking on a city marker, it reveals the earthquake threat analysis for that city, including average magnitude, total earthquake count, and the distribution of land and ocean earthquakes.
 
-A very basic Unfolding demo you'll find in the source folder in the default package. 
-For more examples visit http://unfoldingmaps.org, or download the template with
-examples.
+6- Focused earthquake analysis: Clicking on an earthquake marker displays the cities potentially affected by that earthquake.
+
+# This video shows the functionality of the project.
+
+[![Video Demo](./Images/Data_Visualizer.png)](https://youtu.be/rABgpYYMAag)
 
 The module folders contain the starter code for the programming assignments
 associated with the MOOC.
